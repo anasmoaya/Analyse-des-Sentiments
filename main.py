@@ -61,7 +61,7 @@ def evaluate_algorithm(file_path, senti_dict):
                 total += 1
     accuracy = (correct / total) * 100 if total > 0 else 0
     return accuracy
-
+f
 # Utilisation des fichiers Gold pour évaluation
 accuracy = evaluate_algorithm('Laptop_Test_Gold.xml', get_sentiwordnet_score)
 print(f"Accuracy: {accuracy:.2f}%")
